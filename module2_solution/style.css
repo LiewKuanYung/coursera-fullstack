@@ -9,11 +9,9 @@ h1 {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
 }
 
-.box {
+.box { /*Box contain title and content together*/
   width: 90%;
   height: 150px;
   margin-top: 20px;
@@ -21,20 +19,20 @@ h1 {
   margin-bottom: 20px;
   margin-left: auto;
   position: relative;
-
   background-color: #556B2F;
   border: 1px solid black;
 }
 
-.content {
+.content { /*The Lorem ipsum...*/
   padding-right: 5px;
   padding-left: 5px;
-  margin-top: 38px;
+  margin-top: 10px;
+  float: left;
   font-family: Helvetica;
   color: white;
 }
 
-.title {
+.title { /*3 titles, chicken, beef and sushi */
   width: 135px;
   position: relative;
   float: right;
@@ -61,7 +59,7 @@ h1 {
   width: 100%;
 }
 
-/********** Large devices only (desktop view) **********/
+/********** Large devices (desktop view) **********/
 @media (min-width: 922px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -105,7 +103,7 @@ h1 {
   }
 }
 
-/********** Medium devices only (table view)**********/
+/********** Medium devices (table view)**********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
