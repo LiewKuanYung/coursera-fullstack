@@ -3,102 +3,120 @@ body {
     color: #fff;
     background-color: #ADEFD1FF;
     font-family: 'Oxygen', sans-serif;
-  }
-  
-  /** HEADER **/
-  #header-nav {
+}
+
+/** HEADER **/
+
+#header-nav {
     background-color: #00203FFF;
     border-radius: 0;
     border: 0;
-  }
-  
-  .navbar-brand {
+}
+
+.navbar-brand {
     padding-top: 25px;
-  }
-  
-  .navbar-brand h1 { /* Brand name, "Food, LLC" */
+}
+
+.navbar-brand h1 {
+    /* Brand name, "Food, LLC" */
     font-family: 'Lora', serif;
     color: #C0C0C0;
     font-size: 1.9em;
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 2px 2px 2px #ffff9e;
+    text-shadow: 3px 2px 1px #ffff9e;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1;
-  }
-  .navbar-brand a:hover, .navbar-brand a:focus {
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
-  }
-  
-  #nav-list { /* Navigation button and list*/
+}
+
+#nav-list {
+    /* Navigation button and list*/
     margin-top: 10px;
-  }
-  #nav-list a {
+}
+
+#nav-list a {
     color: #ebfc00;
     text-align: center;
     visibility: hidden;
-  }
-  #nav-list a:hover {
+}
+
+#nav-list a:hover {
     background: #C0C0C0;
-  }
-  #nav-list a span {
+}
+
+#nav-list a span {
     font-size: 1.8em;
-  }
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar { 
-    border: 1px solid #ffc400;
-  }
-  .navbar-header button.navbar-toggle {
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #f6ff74;
+}
+
+.navbar-header button.navbar-toggle {
     clear: both;
     margin-top: -30px;
-  }
-  /* END HEADER */
-  
-  /* MAIN PAGE */
-  #chicken, #beef, #sushi { /*Jumbotron that contain h3 (chicken section) and text together*/
-    color: black;
-    margin-bottom: 20px;
-  }
+}
 
-  div.jumbotron p { /*Jumbotron that contain h3 (chicken section) and text together*/
+/* END HEADER */
+
+/* MAIN PAGE */
+
+#chicken, #beef, #sushi {
+    /*Jumbotron that contain h3 (chicken section) and text together*/
     color: black;
     margin-bottom: 20px;
-  }
-  /* MAIN PAGE */
-  
-  /********** Desktop View - md **********/
-  @media (min-width: 992px) {
-  
-  }
-  
-  /********** Tablet View - sm **********/
-  @media (min-width: 768px) and (max-width: 991px) {
-  
-  }
-  
-  /********** Mobile View - xs **********/
-  @media (max-width: 767px) {
+}
+
+div.jumbotron p {
+    /*Jumbotron that contain h3 (chicken section) and text together*/
+    color: black;
+    margin-bottom: 20px;
+}
+
+.boldText {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+/* END MAIN PAGE */
+
+/********** Desktop View - md **********/
+
+@media (min-width: 992px) {}
+
+/********** Tablet View - sm **********/
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/********** Mobile View - xs **********/
+
+@media (max-width: 767px) {
     /* Header */
     .navbar-brand {
-      padding-top: 10px;
-      height: 80px;
+        padding-top: 10px;
+        height: 80px;
     }
-    .navbar-brand h1 { /* Brand name, "Food, LLC" */
-      padding-top: 15px;
+    .navbar-brand h1 {
+        /* Brand name, "Food, LLC" */
+        padding-top: 15px;
     }
-  
-    #collapsable-nav a { /* Collapsed nav menu text */
-      font-size: 1.2em;
+    #collapsable-nav a {
+        /* Collapsed nav menu text */
+        font-size: 1.2em;
     }
-    #collapsable-nav a span { /* Collapsed nav menu glyph */
-      font-size: 1em;
-      margin-right: 5px;
+    #collapsable-nav a span {
+        /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
     }
-  
-    #nav-list a{ /*set navigation bar visible*/
-      visibility: visible;
-   }
+    #nav-list a {
+        /*set navigation bar visible*/
+        visibility: visible;
+    }
     /* End Header */
-  
-  }
-  
+}

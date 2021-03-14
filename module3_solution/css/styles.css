@@ -22,7 +22,7 @@ body {
   font-size: 1.9em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 2px 2px 2px #ffff9e;
+  text-shadow: 3px 2px 1px #ffff9e;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1;
@@ -35,7 +35,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #ebfc00;
+  color: #f6ff74;
   text-align: center;
   visibility: hidden;
 }
@@ -46,7 +46,7 @@ body {
   font-size: 1.8em;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar { 
-  border: 1px solid #ffc400;
+  border: 1px solid #fdff8f;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -64,7 +64,8 @@ div.jumbotron p { /*Jumbotron that contain h3 (chicken section) and text togethe
   color: black;
   margin-bottom: 20px;
 }
-/* MAIN PAGE */
+
+/* END MAIN PAGE */
 
 /********** Desktop View - md **********/
 @media (min-width: 992px) {
