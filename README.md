@@ -15,8 +15,10 @@ https://liewkuanyung.github.io/coursera-test/module3_solution/index.html
 
 ## Module 4 project:
 Basic JavaScript, uses IIEF, fakenamespace and other basic techniques.
+<br>
 https://liewkuanyung.github.io/coursera-test/module4_solution/harder/index.html
 
 ## Module 5 project:
 Final project. Dynamic web page.
+<br>
 https://liewkuanyung.github.io/coursera-test/module5_solution/assignment5-solution-starter/index.html
