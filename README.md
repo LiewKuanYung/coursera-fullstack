@@ -1,5 +1,5 @@
 # coursera-fullstack-web-dev
-Info: https://liewkuanyung.github.io/coursera-test/
+Info: https://liewkuanyung.github.io/coursera-fullstack/
 
 ## Module 1 quiz:
 scored 100%
