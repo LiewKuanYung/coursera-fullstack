@@ -1,8 +1,8 @@
 # coursera-fullstack-web-dev
-https://liewkuanyung.github.io/coursera-test/
+Info: https://liewkuanyung.github.io/coursera-test/
 
 ## Module 1 quiz:
-score 100%
+scored 100%
 
 ## Module 2 project: 
 Plain CSS with 3 different views, (i.e. mobile, tables and desktop view)
