@@ -1,5 +1,7 @@
 # coursera-fullstack-web-dev
 Info: https://liewkuanyung.github.io/coursera-fullstack/
+Cert:
+![alt text](https://github.com/LiewKuanYung/coursera-fullstack/Coursera HTML, CSS, and Javascript For Web Dev.png "Certifcate")
 
 ## Module 1 quiz:
 scored 100%
