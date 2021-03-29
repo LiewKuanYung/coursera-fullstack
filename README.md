@@ -2,7 +2,7 @@
 Info: https://liewkuanyung.github.io/coursera-fullstack/
 <br>
 Cert:
-![alt text](https://github.com/LiewKuanYung/coursera-fullstack/CourseraWebDevCert.png "Certifcate")
+![alt text](https://github.com/LiewKuanYung/coursera-fullstack/blob/gh-pages/CourseraWebDevCert.png "Certifcate")
 
 ## Module 1 quiz:
 scored 100%
